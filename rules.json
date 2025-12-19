@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Block HTTP",
+    "action": "BLOCK",
+    "protocol": "TCP",
+    "dst_port": 80
+  },
+  {
+    "name": "Block HTTPS",
+    "action": "BLOCK",
+    "protocol": "TCP",
+    "dst_port": 443
+  }
+]
+
+
